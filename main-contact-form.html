@@ -1,0 +1,103 @@
+<!--*** MAIN contact Form ***-->
+<!-- Modal Contact Form -->
+  <div id="email_help-form" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+<!-- Modal content-->
+    <form method="post" action="/docontact.htm" name="contact_form">
+    <input type="hidden" name="cform" value="www.usnodrugs.com">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Contact Us For Help!</h4>
+      </div> <!-- end .modal-header -->
+      <div class="modal-body">
+        <p class="mb20">
+          Do you need help finding a drug or alcohol treatment program in your area?<br>
+          Fill out the form and a counselor will respond shortly.<br>
+          Or for immediate assistance, call <a href="tel:1-888-852-5869" class="rounded-highlight"><span class="glyphicon glyphicon-phone"></span> <strong>1-888-852-5869</strong></a>
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="input-group mb10">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-user text-muted"></span></span>
+              <input type="text" name="First Name" id="name" class="form-control" placeholder="Name" required>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="input-group mb10">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope text-muted"></span></span>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="input-group mb10">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-earphone text-muted"></span></span>
+              <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="input-group mb10">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-user text-muted"></span></span>
+              <select name="Seeking_Help_For" class="form-control select-placeholder">
+                <option selected="" disabled="">Seeking Help For</option>
+                <option>Self</option>
+                <option>Son</option>
+                <option>Daughter</option>
+                <option>Spouse</option>
+                <option>Friend</option>
+                <option>Family</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="input-group mb10">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-glass text-muted"></span></span>
+              <select name="Drug_of_Choice" class="form-control select-placeholder">
+                <option selected="" disabled="">Main Drug Abused</option>
+                <option>Alcohol</option>
+                <option>Cocaine</option>
+                <option>Crack</option>
+                <option>Marijuana</option>
+                <option>Meth</option>
+                <option>Methadone</option>
+                <option>Ecstasy</option>
+                <option>PCP</option>
+                <option>Speed</option>
+                <option>Heroin</option>
+                <option>Pain Killers</option>
+                <option>LSD</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="input-group mb10">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-heart text-muted"></span></span>
+              <select name="Health_Insurance" class="form-control select-placeholder">
+                <option selected="" disabled="">Health Insurance?</option>
+                <option>None</option> 
+                <option>PPO</option>
+                <option>HMO</option>
+                <option>Medicaid</option>
+                <option>Medicare</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        
+        <textarea name="general-situation" id="general-situation" rows="3" class="form-control mb15" placeholder="Briefly describe the general situation"></textarea>
+      </div> <!-- end .modal-body -->
+      <div class="modal-footer">
+        <input type="submit" name="scmd" class="btn btn-primary bg-sky-blue" value="Send Help Request">
+      </div> <!-- end .modal-footer -->
+    </div> <!-- end .modal-content -->
+    </form>
+    </div> <!-- end .modal-dialog -->
+  </div> <!-- end #help_request_form -->
+<!-- END Modal Contact Form -->
