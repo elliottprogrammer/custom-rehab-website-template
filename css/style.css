@@ -1,5 +1,7 @@
-/* usnodrugs.com Custom stylesheet */
-
+/* Rehab Site Custom stylesheet */
+html {
+    max-width: 100vw;
+}
 body {
     background-color: #d3d3d3;
     color: #666;
